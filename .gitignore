@@ -1,0 +1,4 @@
+# Bin/binディレクトリとその中身を除外する
+inputdata/
+log/
+.vscode/
