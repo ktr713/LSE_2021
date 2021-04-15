@@ -1,0 +1,6 @@
+# Bin/binディレクトリとその中身を除外する
+inputdata/
+log/
+.vscode/
+LSEmodules/__pycache__/
+__init__.py
