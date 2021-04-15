@@ -1,5 +1,0 @@
-# Bin/binディレクトリとその中身を除外する
-inputdata/
-log/
-.vscode/
-LSEmodules/__pycache__/
