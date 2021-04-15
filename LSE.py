@@ -9,6 +9,7 @@ from numba import jit, f8, i8, b1, void
 from plyer import notification
 
 #--------------------------------------------------------------------------------------------------------------------------------
+#gituhubのテスト
 #操作変数のまとめ
 #月面操作(0) or CW操作(1) or 加工無し(else)
 case_extension = 0
