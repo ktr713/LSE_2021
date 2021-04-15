@@ -63,7 +63,7 @@ init_vectors = np.loadtxt("inputdata\\zylon\\perigee\\initdata_3dim.csv",delimit
 init_R = vl.r_L*(1-vl.ecc)
 init_vectors[vl.N,1] = init_R*np.cos(vl.theta*np.pi/180.0)
 init_vectors[vl.N,2] = -init_R*np.sin(vl.theta*np.pi/180.0)
-init_vectors[vl.N,3] = init_vectors[1]*vl.omega-vl.alpha/init_R
+init_vectors[vl.N,3] = init_vectors[vl.N,1]*vl.omega-vl.alpha/init_R
 
 #座標加工(質点の分割)
 vectors = vl.divide_vectors(init_vectors,case_extension)
