@@ -2,3 +2,4 @@
 inputdata/
 log/
 .vscode/
+LSEmodules/__pycache__/
